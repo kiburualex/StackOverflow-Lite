@@ -1,0 +1,77 @@
+@import 'colors.css';
+@import 'grid.css';
+@import 'components.css';
+@import 'helpers.css';
+
+
+body {
+  margin: 0;
+  font-family: 'Averta', serif;
+  background-color: #f4f4f4;
+}
+  
+a {
+  color: #595454;
+}
+  
+  /* header */
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top:0;
+}
+  
+.header__logo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  padding: 10px 0px;
+}
+
+.header__brand_name {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  color: #292525;
+  padding: 18px 0px;
+  text-decoration: none;
+}
+
+.header__auth_buttons {
+  float: right;
+  padding:15px 30px 0px 0px;
+}
+.header__button {
+  margin: 0 20px;
+}
+
+
+/* content */
+.content {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+.content__right_card { padding: 30px }
+
+.content__title { font-size: 40px }
+
+.content__submit_button {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header__brand_name {
+    padding: 18px 10px;
+  }
+}
+  
