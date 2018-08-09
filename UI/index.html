@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <img src="images/logo.png" class="header__logo"/>
+            <a href="javascript:;" class="header__brand_name">StackOverflow-Lite</a>
+            <div class="header__auth_buttons">
+                <button class="btn bg-primary header__button">Login</button>
+            </div>
+        </header>
+
+        <!-- content -->
+        <div class="content">
+            <div class="content__left col-8 bg-slates">
+                <div class="content__description text-center">
+                        <img src="images/chat.png" class="content__image"/>
+                    <h2 class="content__title text-center">ASK THE EXPERTS</h2>
+                    <p class="text-center"> Meet the experts. Ask Questions, Get Answers or contribute</p>
+                </div>
+            </div>
+            <div class="content__right col-4">
+                <div class="content__right_card card">
+                    <form class="content__register_form">
+                        <div class="input-group">
+                            <label for="register_username" class="text-slate">Username</label>
+                            <input class="input" 
+                                type="text"    
+                                id="register_username" 
+                                name="register_username" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="register_email" class="text-slate">Email</label>
+                            <input class="input" 
+                                type="text"
+                                id="register_email" 
+                                name="register_email" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="register_password" class="text-slate">Password</label>
+                            <input class="input"
+                                type="password" 
+                                id="register_password" 
+                                name="register_password" />
+                        </div>
+
+                        <div class="content__register-submit">
+                            <button type="submit" class="content__submit_button btn bg-pink">
+                                Register
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
