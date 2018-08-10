@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Stackoverflow Lite</title>
+        <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <img src="../images/logo.png" class="header__logo"/>
+            <a href="javascript:;" class="header__brand_name">StackOverflow-Lite</a>
+            <input class="input header__search-input" 
+                                type="text"    
+                                id="header__search" 
+                                name="header__search"
+                                placeholder="Search" />
+            <div class="header__auth_buttons">
+                <a href="pages/login.html" class="btn bg-slate header__button">Logout</a>
+            </div>
+        </header>
+
+        <!-- content -->
+        <div class="content">
+            <div class="content__top_bar">
+                <div class="content__top_bar--right">
+                <ul class="content__nav">
+                    <li class="content__list"><a href="profile.html">Profile</a></li>
+                    <li class="content__list"><a href="questions.html">Questions</a></li>
+                </ul>
+                <a href="ask_question.html" class="btn bg-violet content__question_button">Ask Question</a>
+                </div>
+            </div>
+            <div class="content__login content__login--center col-6">
+                <div class="content__login_card card">
+                    <div class="content__login_title">Ask Question?</div>
+                    <form class="content__form">
+
+                        <div class="input-group content__input-group--padding-right">
+                            <label for="login_email" class="text-slate">Title</label>
+                            <input class="input content__login-input" 
+                                type="text"
+                                id="login_email" 
+                                name="login_email" />
+                        </div>
+
+                        <div class="input-group content__input-group--padding-right">
+                            <label for="login_password" class="text-slate">Description</label>
+                            <textarea class="input content__login-input content__login-textarea"
+                                type="text" 
+                                id="login_password" 
+                                name="login_password">
+                            </textarea>
+                        </div>
+
+                        <div class="content__login-submit">
+                            <button type="submit" class="content__submit_button btn bg-violet">
+                                Post Question
+                                <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

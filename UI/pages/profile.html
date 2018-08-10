@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Stackoverflow Lite</title>
+        <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <img src="../images/logo.png" class="header__logo"/>
+            <a href="javascript:;" class="header__brand_name">StackOverflow-Lite</a>
+            <input class="input header__search-input" 
+                                type="text"    
+                                id="header__search" 
+                                name="header__search"
+                                placeholder="Search" />
+            <div class="header__auth_buttons">
+                <a href="../pages/login.html" class="btn bg-slate header__button">Logout</a>
+            </div>
+        </header>
+
+        <!-- content -->
+        <div class="content">
+            <div class="content__top_bar">
+                <div class="content__top_bar--right">
+                <ul class="content__nav">
+                    <li class="content__list active"><a href="profile.html">Profile</a></li>
+                    <li class="content__list"><a href="questions.html">Questions</a></li>
+                </ul>
+                <a href="ask_question.html" class="btn bg-violet content__question_button">Ask Question</a>
+                </div>
+            </div>
+            <div class="card statistic__card bg-info text-white">
+                <div>
+                    <span>QUESTIONS</span>
+                    <span class="statistic__card_value">120</span>
+                </div>
+                <i class="fa fa-question-circle"></i>
+            </div>
+            <div class="card statistic__card bg-success text-white">
+                <div>
+                    <span>ANSWERS</span>
+                    <span class="statistic__card_value">120</span>
+                </div>
+                <i class="fa fa-check"></i>
+            </div>
+            <div class="card statistic__card bg-slate text-white">
+                <div>
+                    <span>VOTES</span>
+                    <span class="statistic__card_value">120</span>
+                </div>
+                <i class="fa fa-thumbs-up "></i>
+            </div>
+            <div class="content__tables">
+                <div class="card table__card bg-white text-slate">
+                    <h4>Popular Questions</h4>
+                    <table>
+                        <thead class="bg-slate">
+                            <tr>
+                                <th>Date</th>
+                                <th>Questions</th>
+                                <th>Answers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>06-08-2018</td>
+                                <td>Hello. What is Rust?</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>06-08-2018</td>
+                                <td>Hello. What is React?</td>
+                                <td>4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card table__card bg-white text-slate">
+                    <h4>Recent Questions</h4>
+                    <table>
+                        <thead class="bg-slate">
+                            <tr>
+                                <th>Date</th>
+                                <th>Questions</th>
+                                <th>Answers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10-08-2018</td>
+                                <td>What is Flask?</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>10-08-2018</td>
+                                <td>What is Javascript?</td>
+                                <td>10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -12,6 +12,7 @@ body {
   
 a {
   color: #595454;
+  outline: 0;
 }
   
   /* header */
@@ -48,6 +49,13 @@ a {
 .header__button {
   margin: 0 20px;
   text-decoration: none;
+}
+.header__search-input{
+  width: 30%;
+  margin-top: 10px;
+}
+.header__search-input:active, .header__search-input:focus {
+  border-color: #D574E6;
 }
 
 
@@ -110,9 +118,6 @@ a {
 }
 
 .content__input-group--padding-right {padding-right: 20px;}
-.content__login-input:active, .content__login-input:focus {
-  border-color: #D574E6;
-}
 
 .content__login_title {
   margin-left: 48px;
@@ -140,6 +145,100 @@ a {
   right: 0;
 
 }
+
+/* profile.html content */
+.content__top_bar { height: 50px; padding: 10px; }
+.content__top_bar--right { float:right }
+.content__nav, .content__list { display: inline-block }
+.content__list { padding: 0 20px }
+.content__list.active a{ color: #9C27B0 }
+.content__list a { font-weight: bold }
+.content__list a:active, .content__list a:focus { outline: 0 }
+.content__question_button { float: right }
+.statistic__card{ 
+  width: 25%; 
+  margin-right: 50px;
+  display: inline-block;
+}
+.statistic__card div { display: inline-block }
+.statistic__card div span{ display: block }
+.statistic__card_value{
+  font-size: 30px;
+  font-weight: bold;
+}
+.statistic__card i{ 
+  font-size: 40px;
+  float: right;
+}
+.table__card{
+  width: 41.5%; 
+  margin-right: 50px;
+  display: inline-block;
+}
+.table__card table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #444141;
+}
+.table__card table th, .table__card table td {
+  padding: 12px 20px;
+  line-height: 1.5384616;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+/* ask_question.html content */
+.content__login-textarea { height:100px }
+
+/* questions.html */
+.content__questions_ul { list-style: none }
+.content__questions h3 { border-bottom: 2px solid }
+.content__questions_li_question { border-bottom: 2px solid #edeaea; padding: 10px }
+.content__questions_li_question p { display: inline-block }
+.content__questions_li_question button { float: right; margin-right: 20px; }
+.content__questions_li_question button i { font-size:15px }
+
+.content__badges{ 
+  padding-left: 230px;
+  display: inline-block;
+ }
+.content__badge {
+  display: inline-block;
+  text-align: center;
+  text-align: center;
+  margin-left: 50px;
+}
+.content__badge i{ display: block; font-size: 20px; }
+
+/* question's detail.html */
+.answer__item_vote {
+  height: 100%;
+  width: 50px;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid grey;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid grey;
+}
+
+.comment__questions_ul { list-style: none }
+.comment__questions_ul li { height: 40px }
+.comment__paragraph { 
+  display: inline-block;
+  border-bottom: 1px solid #edeaea;
+  width: 100%;
+ }
+ .comment__textare {height: 50px;}
 
 /* 48em = 768px */
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Stackoverflow Lite</title>
+        <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <img src="../images/logo.png" class="header__logo"/>
+            <a href="javascript:;" class="header__brand_name">StackOverflow-Lite</a>
+            <input class="input header__search-input" 
+                                type="text"    
+                                id="header__search" 
+                                name="header__search"
+                                placeholder="Search" />
+            <div class="header__auth_buttons">
+                <a href="../pages/login.html" class="btn bg-slate header__button">Logout</a>
+            </div>
+        </header>
+
+        <!-- content -->
+        <div class="content">
+            <div class="content__top_bar">
+                <div class="content__top_bar--right">
+                <ul class="content__nav">
+                    <li class="content__list"><a href="profile.html">Profile</a></li>
+                    <li class="content__list active"><a href="questions.html">Questions</a></li>
+                </ul>
+                <a href="ask_question.html" class="btn bg-violet content__question_button">Ask Question</a>
+                </div>
+            </div>
+            <div class="content__questions card">
+                <h3 class="text-violet">Questions (2)</h3>
+                <ul class="content__questions_ul">
+                    <li>
+                        <div class="content__questions_li_question">
+                            <a class="pt-20 pr-20 pb-20" href="detail.html">
+                                <p>What is an Asynchronous Request?</p>
+                            </a>
+                            <div class="content__badges">
+                                <div class="content__badge">
+                                    <i class="fa fa-pencil-square-o  text-success"></i>
+                                    <span class="text-success">answers (23)</span>
+                                </div>
+                                <div class="content__badge">
+                                    <i class="fa fa-thumbs-up text-info"></i>
+                                    <span class="text-info">votes (23)</span>
+                                </div>
+                            </div>
+                            <button class="btn bg-danger"><i class="fa fa-times"></i></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content__questions_li_question">
+                            <a class="pt-20 pr-20 pb-20" href="detail.html">
+                                <p>How do you do messaging in Flask?</p>
+                            </a>
+                            <div class="content__badges">
+                                <div class="content__badge">
+                                    <i class="fa fa-pencil-square-o  text-success"></i>
+                                    <span class="text-success">answers (3)</span>
+                                </div>
+                                <div class="content__badge">
+                                    <i class="fa fa-thumbs-up text-info"></i>
+                                    <span class="text-info">votes (2)</span>
+                                </div>
+                            </div>
+                            <button class="btn bg-danger"><i class="fa fa-times"></i></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>
