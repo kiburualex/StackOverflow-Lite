@@ -18,6 +18,8 @@ StackOverflow-Lite is a platform where people can ask questions and provide answ
 # Challenge 1 - Create UI Templates
 **[Complete UI Pages](https://kiburualex.github.io/StackOverflow-Lite/UI/)**
 
+**[Pivotal Tacker UI Stories](https://www.pivotaltracker.com/n/projects/2189516)**
+
     * Landing page with Sign up form
     * Login pages
     * Questions list page
