@@ -1,123 +1,123 @@
 /* background colors */
 .bg-primary {
-    background-color:#2196F3;
+    background-color:#2196F3 !important;
     border-color:#2196F3;
     color:#fff;
 }
 
 .bg-danger {
-    background-color:#F44336;
+    background-color:#F44336 !important;
     border-color:#F44336;
     color:#fff;
 }
 
 .bg-success {
-    background-color:#4CAF50;
+    background-color:#4CAF50 !important;
     border-color:#4CAF50;
     color:#fff;
 }
 
 .bg-warning {
-    background-color:#FF5722;
+    background-color:#FF5722 !important;
     border-color:#FF5722;
     color:#fff;
 }
 
 .bg-info {
-    background-color:#00BCD4;
+    background-color:#00BCD4 !important;
     border-color:#00BCD4;
     color:#fff;
 }
 
 .bg-pink {
-    background-color:#E91E63;
+    background-color:#E91E63 !important;
     border-color:#E91E63;
     color:#fff;
 }
 
 .bg-violet {
-    background-color:#9C27B0;
+    background-color:#9C27B0 !important;
     border-color:#9C27B0;
     color:#fff;
 }
 
 .bg-purple {
-    background-color:#673AB7;
+    background-color:#673AB7 !important;
     border-color:#673AB7;
     color:#fff;
 }
 
 .bg-indigo {
-    background-color:#3F51B5;
+    background-color:#3F51B5 !important;
     border-color:#3F51B5;
     color:#fff;
 }
 
 .bg-blue {
-    background-color:#03A9F4;
+    background-color:#03A9F4 !important;
     border-color:#03A9F4;
     color:#fff;
 }
 
 .bg-teal {
-    background-color:#009688;
+    background-color:#009688 !important;
     border-color:#009688;
     color:#fff;
 }
 
 .bg-green {
-    background-color:#8BC34A;
+    background-color:#8BC34A !important;
     border-color:#8BC34A;
     color:#fff;
 }
 
 .bg-orange {
-    background-color:#FF9800;
+    background-color:#FF9800 !important;
     border-color:#FF9800;
     color:#fff;
 }
 
 .bg-brown {
-    background-color:#795548;
+    background-color:#795548 !important;
     border-color:#795548;
     color:#fff;
 }
 
 .bg-grey {
-    background-color:#777;
+    background-color:#777 !important;
     border-color:#777;
     color:#fff;
 }
 
 .bg-slate {
-    background-color:#607D8B;
+    background-color:#607D8B !important;
     border-color:#607D8B;
     color:#fff;
 }
 
 .bg-white {
-    background-color:#fff;
+    background-color:#fff !important;
     color:#333;
 }
 
 /* border colors */
-.border-primary { border-color:#2196F3 }
-.border-danger { border-color:#F44336 }
-.border-success{ border-color:#4CAF50 }
-.border-warning { border-color:#FF5722 }
-.border-info { border-color:#00BCD4 }
-.border-pink { border-color:#E91E63 }
-.border-violet { border-color:#9C27B0 }
-.border-purple { border-color:#673AB7 }
-.border-indigo { border-color:#3F51B5 }
-.border-blue { border-color:#03A9F4 }
-.border-teal { border-color:#009688 }
-.border-green { border-color:#8BC34A }
-.border-orange { border-color:#FF9800 }
-.border-brown { border-color:#795548 }
-.border-grey { border-color:#777 }
-.border-slate { border-color:#607D8B }
-.border-white { border-color:#fff }
+.border-primary { border-color:#2196F3 !important}
+.border-danger { border-color:#F44336 !important}
+.border-success{ border-color:#4CAF50 !important}
+.border-warning { border-color:#FF5722 !important}
+.border-info { border-color:#00BCD4 !important}
+.border-pink { border-color:#E91E63 !important}
+.border-violet { border-color:#9C27B0 !important}
+.border-purple { border-color:#673AB7 !important}
+.border-indigo { border-color:#3F51B5 !important}
+.border-blue { border-color:#03A9F4 !important}
+.border-teal { border-color:#009688 !important}
+.border-green { border-color:#8BC34A !important}
+.border-orange { border-color:#FF9800 !important}
+.border-brown { border-color:#795548 !important}
+.border-grey { border-color:#777 !important}
+.border-slate { border-color:#607D8B !important }
+.border-white { border-color:#fff !important }
 
 
 /* text colors */
@@ -140,3 +140,8 @@
 .text-slate,.text-slate:focus,.text-slate:hover { color:#52656E!important }
 .text-white,.text-white:focus,.text-white:hover { color:#fff!important }
 .text-default,.text-default:focus,.text-default:hover{color:#333!important}
+
+.card-primary {
+    background-color: #2196F3;
+    color: #fff;
+}

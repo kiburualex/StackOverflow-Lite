@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Stackoverflow Lite</title>
+        <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <img src="../images/logo.png" class="header__logo"/>
+            <a href="javascript:;" class="header__brand_name">StackOverflow-Lite</a>
+            <input class="input header__search-input" 
+                                type="text"    
+                                id="header__search" 
+                                name="header__search"
+                                placeholder="Search" />
+            <div class="header__auth_buttons">
+                <a href="../pages/login.html" class="btn bg-slate header__button">Logout</a>
+            </div>
+        </header>
+
+        <!-- content -->
+        <div class="content">
+            <div class="content__top_bar">
+                <div class="content__top_bar--right">
+                <ul class="content__nav">
+                    <li class="content__list"><a href="profile.html">Profile</a></li>
+                    <li class="content__list active"><a href="questions.html">Questions</a></li>
+                </ul>
+                <a href="ask_question.html" class="btn bg-violet content__question_button">Ask Question</a>
+                </div>
+            </div>
+            <div class="content__questions card">
+                <h2 class="text-violet">What is an Asynchronous Request?</h2>
+                <p class="text-slate">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 
+                    1500s, when an unknown printer took a galley of type and scrambled it 
+                    to make a type specimen book. It has survived not only five centuries,
+                     but also the leap into electronic typesetting, remaining essentially 
+                     unchanged. It was popularised in the 1960s with the release of Letras
+                     et sheets containing Lorem Ipsum passages, and more recently with desktop
+                      publishing software like Aldus PageMaker including versions of
+                       Lorem Ipsum.</p>
+                <div>
+                    <div class="content__badge m-0">
+                        <i class="fa fa-pencil-square-o  text-success"></i>
+                        <span class="text-success">answers (3)</span>
+                    </div>
+                    <div class="content__badge">
+                        <i class="fa fa-thumbs-up text-info"></i>
+                        <span class="text-info">votes (2)</span>
+                    </div>
+                </div>
+                <div class="comments ml-10 text-slate">
+                    <ul class="comment__questions_ul">
+                        <span class="text-bold">Comments</span>
+
+                        <li>
+                            <p class="comment__paragraph pb-5">Nice question man.</p>
+                        </li>
+                        <li>
+                            <p class="comment__paragraph pb-5">Anyone with an answer?</p>
+                        </li>
+
+                        <span class="text-bold mt-15"><small>Add a comment</small></span>
+
+                        <form class="comment__form mt-10">
+                            <div class="input-group content__input-group--padding-right">
+                                <textarea class="input comment__textarea">
+                                </textarea>
+                            </div>
+                        </form>
+                    </ul>
+                    
+                </div>
+                <h3 class="text-slate mt-30 pb-15">Answers (1)</h3>
+                <!-- answers -->
+                <div class="answers">
+                    <div class="left">
+                        <div class="answer__item_vote pull-left">
+                            <div class="arrow-up"></div>
+                            <div class="text-center text-bold p-5"> 2 </div>
+                            <div class="arrow-down"></div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul class="content__questions_ul">
+                            <li>
+                                <div class="content__questions_li_question">
+                                    <p class="text-slate">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 
+                                        1500s, when an unknown printer took a galley of type and scrambled it 
+                                        to make a type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining essentially 
+                                            unchanged. It was popularised in the 1960s with the release of Letras
+                                            et sheets containing Lorem Ipsum passages, and more recently with desktop
+                                            publishing software like Aldus PageMaker including versions of
+                                            Lorem Ipsum.
+                                    </p>
+                                    <div class="comments ml-10 text-slate">
+                                        <ul class="comment__questions_ul">
+                                            <span class="text-bold">Comments</span>
+                    
+                                            <li>
+                                                <p class="comment__paragraph pb-5">Nice question man.</p>
+                                            </li>
+                                            <li>
+                                                <p class="comment__paragraph pb-5">Anyone with an answer?</p>
+                                            </li>
+                    
+                                            <span class="text-bold mt-15"><small>Add a comment</small></span>
+                    
+                                            <form class="comment__form mt-10">
+                                                <div class="input-group content__input-group--padding-right">
+                                                    <textarea class="input comment__textarea">
+                                                    </textarea>
+                                                </div>
+                                            </form>
+                                        </ul>
+                                        
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- answers -->
+
+                <form class="answer__form ml-10">
+                    <h4>Answer</h4>
+                    <div class="input-group content__input-group--padding-right">
+                        <textarea class="input comment__textarea">
+                        </textarea>
+                    </div>
+                    <div class="content__login-submit">
+                        <button type="submit" class="content__submit_button btn bg-violet">
+                            Post Answer
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
